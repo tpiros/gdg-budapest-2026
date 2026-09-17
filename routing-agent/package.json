@@ -1,0 +1,20 @@
+{
+  "name": "routing-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx adk run agent.ts",
+    "start:transfer": "npx adk run agent-transfer.ts",
+    "web": "npx adk web agent.ts",
+    "web:transfer": "npx adk web agent-transfer.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/adk": "^2.0.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@google/adk-devtools": "^2.0.0",
+    "typescript": "^7.0.2"
+  }
+}

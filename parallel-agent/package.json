@@ -1,0 +1,25 @@
+{
+  "name": "parallel-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "agent.ts",
+  "scripts": {
+    "start": "npx adk run agent.ts",
+    "web": "npx adk web agent.ts",
+    "start:map": "npx adk run agent-map.ts",
+    "web:map": "npx adk web agent-map.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/adk": "^2.0.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@google/adk-devtools": "^2.0.0",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@google/genai": "^2.20.0"
+  },
+  "name": "managed-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "agent.ts",
+  "scripts": {
+    "start": "node --env-file=.env agent.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
